@@ -307,7 +307,7 @@ function draw() {
         // obstaclesGroup.debug = true;
 
         //algorithm for score
-        score = score + Math.round(getFrameRate() / 70);
+        score = score + Math.round(getFrameRate() / 67);
 
         // to produce illusion of moving objects.
         bg1.velocityX = -(6 + 3 * score / 100);
